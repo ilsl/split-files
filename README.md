@@ -1,4 +1,4 @@
-# Just Eat Split Files task
+# Split Files
 
 ## Introduction
 
