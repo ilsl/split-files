@@ -30,6 +30,12 @@ Python was choosen for this exercise as the programmer had more experiance with 
         ```console
         $ bash file-splitter.sh --input-file path/to/file --output-dir path/to/dir --max-megabytes 10 --max-lines 2
         ```
+        
+    -e.g to run with the test file
+    
+            ```console
+        $ bash file-splitter.sh --input-file test.txt --output-dir outputdir --max-megabytes 10 --max-lines 2
+        ```
 ## Future TODOs
 
 This coding exercise took 90 minutes. The following future improvements can be made:
