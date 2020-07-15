@@ -8,7 +8,7 @@ The output files will not exceed the `--max-megabytes` and the `--max-lines` par
 
 ## Prerequisites
 
-Python was choosen for this exercise as I had more experiance with this compared with Scala.
+Python was choosen for this exercise as the programmer had more experiance with this compared with Scala.
 
   - Python 3.7
   - Bash
