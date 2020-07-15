@@ -16,7 +16,7 @@ def chunk_to_write(file, nb, ml):
 def create_filename(i_file, o_dir, f_name_part):
     file_name, file_extension = os.path.splitext(i_file)
     file_size = os.path.getsize(i_file)
-    complete_output_name = os.path.join(o_dir, i_file+"-part"+str(f_name_part)+file_extension)
+    complete_output_name = os.path.join(o_dir, file_name+"-part"+str(f_name_part)+file_extension)
     if not os.path.isdir(o_dir):
         os.mkdir(o_dir)
     return complete_output_name
